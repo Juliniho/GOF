@@ -28,7 +28,7 @@
    + 3.07 [Proxy] (https://github.com/ajpaez/Learning/wiki/Proxy-pattern)
 
 4. Architecture
-   + 4.1 [DAO](https://github.com/ajpaez/OCA/wiki/3.3-Scope)
+   + 4.1 [DAO](https://github.com/ajpaez/Learning/wiki/DAO-pattern)
 
 
 > Fuente: 	https://www.javacodegeeks.com/2015/09/java-design-patterns.html
