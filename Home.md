@@ -1,7 +1,7 @@
 Welcome to the Learning wiki!
 
 1. IS
-   + 1.1 [Design Patterms]()
+   + 1.1 [Design Patterms](https://github.com/ajpaez/Learning/wiki/Design-Patterms)
 
 2. JAVA
    + 2.1 [Annottations]()
