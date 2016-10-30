@@ -1,7 +1,7 @@
 1. Behavioral
-   + 1.1 [Chainresponsibility](https://github.com/ajpaez/OCA/wiki/1.1-Recordatorio-Java)
-   + 1.2 [Command](https://github.com/ajpaez/OCA/wiki/1.2-Identificadores-y-Keywords)
-   + 1.3 [Interpreter] (https://github.com/ajpaez/OCA/wiki/1.3-Definici%C3%B3n-de-clases)
+   + 1.1 [Chain Responsibility](https://github.com/ajpaez/Learning/wiki/Chain-Responsibility)
+   + 1.2 [Command](https://github.com/ajpaez/Learning/wiki/Command)
+   + 1.3 [Interpreter] (https://github.com/ajpaez/Learning/wiki/Interpreter-pattern)
    + 1.4 [Iterator] (https://github.com/ajpaez/OCA/wiki/1.4-Usos-de-Interfaces)
    + 1.5 [Mediator] (https://github.com/ajpaez/OCA/wiki/1.5-Declaraci%C3%B3n-de-miembros-de-clase)
    + 1.6 [Memento] (https://github.com/ajpaez/OCA/wiki/1.6-Declaraci%C3%B3n-y-uso-de-enum)
@@ -12,7 +12,7 @@
    + 1.6 [Visitor] (https://github.com/ajpaez/OCA/wiki/1.6-Declaraci%C3%B3n-y-uso-de-enum)
 
 2. Creational
-   + 2.1 [Abstract factory](https://github.com/ajpaez/OCA/wiki/2.1-Encapsulaci%C3%B3n)
+   + 2.1 [Abstract Factory](https://github.com/ajpaez/OCA/wiki/2.1-Encapsulaci%C3%B3n)
    + 2.2 [Builder](https://github.com/ajpaez/OCA/wiki/2.2-Herencia-y-polimorfismo)
    + 2.3 [Factory method] (https://github.com/ajpaez/OCA/wiki/2.3-Polimorfismo)
    + 2.4 [Prototype] (https://github.com/ajpaez/OCA/wiki/2.4-Overriding-Overloading)
