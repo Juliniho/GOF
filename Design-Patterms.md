@@ -54,7 +54,7 @@ La flexibilidad de la composición del objeto proviene de la capacidad de cambia
 Los patrones de comportamiento se refieren a los algoritmos y a la asignación de responsabilidades entre objetos. Estos patrones no solo describen los patrones de los objetos o clases, sino también los patrones de comunicación entre ellos. Estos patrones caracterizan el flujo de control complejo difícil de seguir en tiempo de ejecución. En estos patrones se usa la composición de objetos en lugar de la herencia.  Algunos describen cómo un grupo de objetos pares cooperan para realizar una tarea que ningún objeto solo puede llevar a cabo por sí mismo.
 Para evitar el acoplamiento entre objetos, por el traspaso de información, se define la figura del mediador que es el encargado de proporcionar el direccionamiento indirecto necesario para la perder dicho acoplamiento.
 
-> Chain of Responsibility;Command;Interpreter;Iterator;Mediator;Memento;Observer;State;Strategy;Template Method;Visitor
+> ChainofResponsibility;Command;Interpreter;Iterator;Mediator;Memento;Observer;State;Strategy;Template Method;Visitor
 
 ##1.4 - Patrones de arquitectura
 Un patrón de arquitectura es una solución general y reutilizable a un problema que ocurre comúnmente en arquitectura de software dentro de un contexto dado. Los patrones arquitectónicos son similares a los patrones de diseño de software, pero tienen un alcance más amplio. Los patrones arquitectónicos abordar diversas cuestiones en la ingeniería de software, tales como las limitaciones de rendimiento de hardware de computadora, la alta disponibilidad y la reducción al mínimo de los riesgos empresariales. 
