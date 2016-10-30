@@ -15,7 +15,7 @@ El factory abstract es útil para la conexión de un grupo diferente de objetos 
 * Client: Usa solo la interfaz declarada por AbstractFactory y AbstractProduct
 	
 ## 3. Cuando usar el patrón
-	- Cuando un sistema deba ser independiente de la forma en la que se crean sus productos, se componen o se representan.
+* Cuando un sistema deba ser independiente de la forma en la que se crean sus productos, se componen o se representan.
 * Cuando un sistema deba ser configurado con múltiples familias de productos.
 * Cuando se desee proporcionar una biblioteca de clases de productos y quiera solo exponer las interfaces y no sus implementaciones
 
