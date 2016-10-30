@@ -17,7 +17,7 @@ Una jerarquía de clases puede ser diseñada para representar el conjunto de reg
 Debido a que cada clase representa unas reglas gramaticales, el número de clases aumenta con el número de reglas de la gramática. Un lenguaje con amplias reglas gramaticales complejas, requiere un gran número de clases. El patrón Interpreter funciona mejor cuando la gramática es simple.
 Tener una gramática sencilla evita la necesidad de tener muchas clases correspondientes al conjunto completo de reglas que participan, que son difíciles de manejar y mantener.
 
-## 2. Actores
+## 2. Participantes
 * AbstractExpression: Declara un Interpret abstracto que es común a todos los nodos en el árbol de sintaxis abstracta.
 * TerminalExpression: Implementa una operación Interpret asociada con un símbolo terminal en la gramática. Requiere una instancia para cada símbolo terminal en la sentencia
 * NonterminalExpression: Se requiere una de estas clases para cada regla R ::= R1 R2 ... Rn en la gramática. Mantiene las instancias de tipo AbstractExpression para cada símbolo Ri en Rn. Implementa una operación Interpret para un símbolo no terminal en la gramática. Interpret normalmente	se llama a si misma recursivamente en las variables que representan Ri sobre Rn. 
