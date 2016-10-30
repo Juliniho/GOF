@@ -5,7 +5,7 @@ El patrón Chain of Responsibility es un patrón de comportamiento en el que un 
 Se trata de encadenar los objetos y remitir la información a lo largo de la cadena hasta un objeto que sea capaz de procesarla. Cuando existen varios objetos que son capaces de procesar la petición, el patrón recomienda dar a cada uno la oportunidad de procesar la solicitud en orden secuencial.
 Los objetos (manipuladores) pueden estar dispuestos en forma de cadena, donde cada objeto tiene una referencia al objeto siguiente. El primer objeto recibe la petición y comprueba si puede resolverla o trasladarla al siguiente manejador.
 
-## 2. Actores
+## 2. Participantes
 * Handler: Interfaz que manejará las peticiones, opcionalmente implementa el link sucesor.
 * ConcreteHandler: Manejador especifico de un tipo de petición
 * Client: Inicia la petición a un objeto ConcreteHandler en la cadena.
