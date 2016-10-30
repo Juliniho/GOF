@@ -1,6 +1,6 @@
 # INTERPRETER PATTERN
 
-## 1. Intro
+## 1. Overview
 Este patrón de diseño es un modelo de alta resistencia. Es todo acerca de juntar su propio lenguaje de programación, o el manejo de uno ya existente, mediante la creación de un intérprete para ese idioma. Para utilizar este patrón, se debe saber bastante sobre las gramáticas formales para crear un idioma. Como se puede imaginar,este es uno de esos patrones que los desarrolladores realmente no usan todos los días, porque la creación de su propio idioma no es algo que mucha gente haga.
 
 Por ejemplo, definir una expresión en tu nuevo lenguaje podría ser algo como:
