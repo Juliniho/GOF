@@ -10,7 +10,7 @@ Usando el patrón Command, el invoker que emite la solicitud en nombre del clien
 
 Cada objeto Command es responsable de ofrecer la funcionalidad requerida para procesar la solicitud que representa, pero no contiene la actual implementación de dicha funcionalidad. El objeto Command hace uso de los objetos Receiver para ofrecer dicha funcionalidad.
 
-## 2. Actores
+## 2. Participantes
 * Command: Declara la interfaz para la ejecución de la operación.
 * ConcreteCommand: Define la unión entre un objeto Receiver y una acción. Implementa Execute para invocar las operaciones correspondientes en el Receiver.
 * Client: Crea un ConcreteCommand y setea su receiver
