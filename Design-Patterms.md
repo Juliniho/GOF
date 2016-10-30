@@ -19,12 +19,13 @@
    + 2.05 [Singleton] (https://github.com/ajpaez/Learning/wiki/Singleton-pattern)
 
 3. Structural
-   + 3.01 [Adapter](https://github.com/ajpaez/OCA/wiki/3.1-El-Stack-y-el-Heap)
-   + 3.02 [Bridge](https://github.com/ajpaez/OCA/wiki/3.2-Literales,-asignaciones-y-variables)
-   + 3.03 [Composite] (https://github.com/ajpaez/OCA/wiki/3.3-Scope)
-   + 3.04 [Decorator] (https://github.com/ajpaez/OCA/wiki/3.4-Inicializaci%C3%B3n-de-variables)
-   + 3.05 [Flyweight] (https://github.com/ajpaez/OCA/wiki/3.5-Paso-de-variables-a-m%C3%A9todos)
-   + 3.06 [Proxy] (https://github.com/ajpaez/OCA/wiki/3.6-Recolector-de-basura)
+   + 3.01 [Adapter](https://github.com/ajpaez/Learning/wiki/Adapter-pattern)
+   + 3.02 [Bridge](https://github.com/ajpaez/Learning/wiki/Bridge-pattern)
+   + 3.03 [Composite] (https://github.com/ajpaez/Learning/wiki/Composite-pattern)
+   + 3.04 [Decorator] (https://github.com/ajpaez/Learning/wiki/Decorator-pattern)
+   + 3.05 [Facade] (https://github.com/ajpaez/Learning/wiki/Facade-pattern)
+   + 3.06 [Flyweight] (https://github.com/ajpaez/Learning/wiki/Flyweight-pattern)
+   + 3.07 [Proxy] (https://github.com/ajpaez/Learning/wiki/Proxy-pattern)
 
 4. Architecture
    + 4.1 [DAO](https://github.com/ajpaez/OCA/wiki/3.3-Scope)
