@@ -12,11 +12,11 @@
    + 1.11 [Visitor] (https://github.com/ajpaez/Learning/wiki/Visitor-pattern)
 
 2. Creational
-   + 2.01 [Abstract Factory](https://github.com/ajpaez/OCA/wiki/2.1-Encapsulaci%C3%B3n)
-   + 2.02 [Builder](https://github.com/ajpaez/OCA/wiki/2.2-Herencia-y-polimorfismo)
-   + 2.03 [Factory method] (https://github.com/ajpaez/OCA/wiki/2.3-Polimorfismo)
-   + 2.04 [Prototype] (https://github.com/ajpaez/OCA/wiki/2.4-Overriding-Overloading)
-   + 2.05 [Singleton] (https://github.com/ajpaez/OCA/wiki/2.5-Casting)
+   + 2.01 [Abstract Factory](https://github.com/ajpaez/Learning/wiki/Abstract-factory-pattern)
+   + 2.02 [Builder](https://github.com/ajpaez/Learning/wiki/Builder-pattern)
+   + 2.03 [Factory method] (https://github.com/ajpaez/Learning/wiki/Factory-method-pattern)
+   + 2.04 [Prototype] (https://github.com/ajpaez/Learning/wiki/Prototype-pattern)
+   + 2.05 [Singleton] (https://github.com/ajpaez/Learning/wiki/Singleton-pattern)
 
 3. Structural
    + 3.01 [Adapter](https://github.com/ajpaez/OCA/wiki/3.1-El-Stack-y-el-Heap)
