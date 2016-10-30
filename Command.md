@@ -1,6 +1,6 @@
 # COMMAND PATTERN
 
-## 1. Intro
+## 1. Overview
 El patrón Command es un patrón de comportamiento y ayuda a desacoplar el invocador del receptor de la solicitud y ayuda a ejecutar cualquier tipo de tarea sin conocer su implementación. La intención del patrón es encapsular la petición como un objeto, permitiendo al desarrollador, de ese modo, parametrizar los clientes con diferentes peticiones, colas o log de peticiones y soportar deshacer operaciones. 
 En general, una aplicación orientada a objetos consiste en un conjunto de objetos que interactúan entre sí, cada uno con sus limitaciones, centrados en la funcionalidad. En respuesta a la interacción del usuario, la aplicación lleva a cabo algún tipo de procesamiento. Para este fin, la aplicación hace uso de los servicios de diferentes objetos para el requisito solicitado.
 
