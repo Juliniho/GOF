@@ -16,3 +16,5 @@ Los objetos (manipuladores) pueden estar dispuestos en forma de cadena, donde ca
 * El conjunto de objetos que puede manejar una solicitud se debe especificar de forma dinámica.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/7/75/EstructuraES2.jpg)
+
+[Ejemplo](https://github.com/ajpaez/Learning/tree/master/Design%20Patterms/src/main/java/apr/learning/pattern/behavioral/chainresponsibility)
