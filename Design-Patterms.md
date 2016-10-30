@@ -33,7 +33,7 @@
 > Fuente: 	https://www.javacodegeeks.com/2015/09/java-design-patterns.html
 
 
-1. - Categorización de patrones
+h1. 1 - Categorización de patrones
 
 #1.1  - Patrones de creación
 Son usados para diseñar el proceso de instanciación de objetos. Un patrón creacional usa la herencia para variar la creación de objetos.
