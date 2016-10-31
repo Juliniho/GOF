@@ -29,6 +29,7 @@
 
 4. Architecture
    + 4.1 [DAO](https://github.com/ajpaez/Learning/wiki/DAO-pattern)
+   + 4.2 [Specification](https://github.com/ajpaez/Learning/wiki/Specification-pattern)
 
 
 > Fuente: 	https://www.javacodegeeks.com/2015/09/java-design-patterns.html
