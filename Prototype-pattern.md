@@ -7,6 +7,13 @@ El patrón prototype  se usa para especificar los tipos de objetos que se creara
 
 En Java, hay ciertas formas de copiar un objeto con el fin de crear uno nuevo. Una forma de lograr esto es usar la interfaz Cloneable. Java provee el método clone, heredado de la clase Objects. Tu necesitas implementar la interfaz Clonable y sobreescribir el método clone de acuerdo a tus necesidades.
 
+### 11. Tipos de clonación
+* Deep cloning - Se clona el objeto y también sus objetos relacionados. Crea una clonación no sólo los valores primitivos, sino que copia todos los subobjetos que contiene (se trata de una clonacion bit a bit).
+
+* Shallow cloning: Se clona el objeto y sus propiedades, pero no sus asociaciones con terceros objetos, copia solo las referencias de estos últimos.
+
+![](https://2.bp.blogspot.com/-dCpqPUvetHg/Vki-34SuAXI/AAAAAAAAAOU/5vTf0nrADuM/s1600/CLone.jpg)
+
 
 ## 2. Participantes
 * Prototype: Declara la interfaz que se podrá clonar
