@@ -12,7 +12,7 @@
    + 1.11 [Visitor] (https://github.com/ajpaez/Learning/wiki/Visitor-pattern)
 
 2. Creational
-   + 2.01 [Abstract Factory](https://github.com/ajpaez/Learning/wiki/Abstract-factory-pattern-(Provider))
+   + 2.01 [Abstract Factory [Provider]](https://github.com/ajpaez/Learning/wiki/Abstract-factory-pattern-(Provider))
    + 2.02 [Builder](https://github.com/ajpaez/Learning/wiki/Builder-pattern)
    + 2.03 [Factory method] (https://github.com/ajpaez/Learning/wiki/Factory-method-pattern)
    + 2.04 [Prototype] (https://github.com/ajpaez/Learning/wiki/Prototype-pattern)
