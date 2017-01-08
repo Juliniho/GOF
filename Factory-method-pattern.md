@@ -16,6 +16,6 @@ La ventaja principal de este enfoque es que los objetos de la aplicación pueden
 * Las clases delegan su responsabilidad hacia una de muchas subclases de ayuda y se desea localizar el conocimiento de que subclase hay que delegar
 
 
-![](https://upload.wikimedia.org/wikipedia/commons/7/73/Factory_Method.png
+![](https://upload.wikimedia.org/wikipedia/commons/7/73/Factory_Method.png)
 
 [Ejemplo](https://github.com/ajpaez/Learning/tree/master/Design%20Patterms/src/main/java/apr/learning/pattern/creational/factorymethod)
