@@ -89,3 +89,44 @@ Se dice que dos módulos  A y B están acoplados por contenido si uno se refiere
 |        Global        |      Media      |     Mala    |     Pobre    |
 |       Contenido      |       Mala      |     Mala    |     Mala     |
 
+
+#Encapsulación
+Java, como un lenguaje orientado a objetos, implementa la encapsulación. Este concepto consiste en la ocultación del estado o de los datos miembro de un objeto, de forma que sólo es posible modificar los mismos mediante los métodos definidos para dicho objeto.
+Cada objeto está aislado del exterior, de forma que la aplicación es un conjunto de objetos que colaboran entre sí mediante el paso de mensajes invocando sus operaciones o métodos. De esta forma, los detalles de implementación permanecen "ocultos" a las personas que usan las clases, evitando así modificaciones o accesos indebidos a los datos que almacenan las clases.
+Esta idea provee dos principales beneficios:
+
+* Modularidad, esto es, el código fuente de un objeto puede ser escrito, así como darle mantenimiento, independientemente del código fuente de otros objetos. Así mismo, un objeto puede ser transferido alrededor del sistema sin alterar su estado y conducta.
+* Ocultamiento de la información, es decir, un objeto tiene una "interfaz publica" que otros objetos pueden utilizar para comunicarse con él. Pero el objeto puede mantener información y métodos privados que pueden ser cambiados en cualquier tiempo sin afectar a los otros objetos que dependan de ello.
+
+En un objeto pojo/bean este encapsulamiento se consigue a través de los métodos getters y setters. Pero aquí debemos de tener especial cuidado con los atributos de nuestro objeto que sean objetos no mutables, es decir, que se pueda cambiar el objeto al que hacen referencia. Por ejemplo, si tenemos una objeto con un atributo de tipo List y en su get devolvemos la dirección de memoria a la que hace referencia dicha variable (atributo) estaríamos perdiendo la encapsulación de la clase ya que desde cualquier otro objeto podríamos cambiar la lista que se ha creado en nuestro objeto, para evitar esto y mejorar la encapsulación para este caso podemos construir nuestra propia interfaz dentro del objeto que maneje/gestione la lista.
+
+```java
+public class Person {
+
+	List<String> phones;
+
+	public Person() {
+		super();
+		this.phones = new ArrayList<String>();
+	}
+
+	public List<String> getPhones() {
+		return new ArrayList<String>(phones);
+	}
+
+	public void setPhones(List<String> phones) {
+		this.phones = phones;
+	}
+
+	public String addPhone(String phone) {
+		phones.add(phone);
+		return phone;
+	}
+
+	public String removePhone(String phone) {
+		phones.remove(phone);
+		return phone;
+	}
+
+}
+```
