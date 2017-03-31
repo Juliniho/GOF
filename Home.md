@@ -5,6 +5,8 @@ Welcome to the Learning wiki!
    + 1.2 POO
      + 1.2.1 [Conceptos](https://github.com/ajpaez/Learning/wiki/Conceptos-generales-POO)
      + 1.2.2 [Principios](https://github.com/ajpaez/Learning/wiki/Principios-del-dise%C3%B1o-orientado-a-objetos)
+   + 1.3 [Semantic Versioning](https://github.com/ajpaez/Learning/wiki/Semantic-Versioning)
+
 
 2. JAVA
    + 2.1 [Annottations](https://github.com/ajpaez/Learning/wiki)
