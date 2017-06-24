@@ -28,10 +28,10 @@ Un módulo presenta cohesión secuencial si sus elementos están envueltos en ta
 #### Ejemplos
 * Un modulo que formatea y realiza una validación cruzada sobre un registro y luego se usa como registro formateado y con su validación en otro registro, entonces se devuelve un registro formateado y validado.
 
-###Comunicacional
+### Comunicacional
 Un módulo presenta cohesión comunicacional si contiene actividades que comparten los mismo datos ya sean de entrada o de salida.
 
-####Ejemplos
+#### Ejemplos
 * Un conjunto de funciones definidas sobre un array o una matriz
 
 ### Procedural
