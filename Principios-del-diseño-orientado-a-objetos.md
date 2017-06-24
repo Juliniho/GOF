@@ -25,7 +25,7 @@ Este principio recomienda el desarrollo empleando partes sencillas, comprensible
 
 <a href="#principios-del-diseño-orientado-a-objetos">Subir</a>
 
-###Principio de No vas a necesitarlo (YAGNI – You Aren't Gonna Need It)
+### Principio de No vas a necesitarlo (YAGNI – You Aren't Gonna Need It)
 
 Es uno de los principios del Extreme Programming que indica que un programador no debe agregar funcionalidades extras hasta que no sea necesario. 
 > Aplicar siempre las cosas cuando realmente los necesita, no cuando lo que prevén que los necesita." - Ron Jeffries
@@ -157,3 +157,20 @@ Podemos visualizar la estructura de paquetes en nuestra aplicación como un conj
 
 <a href="#principios-del-diseño-orientado-a-objetos">Subir</a>
 
+
+## Indicios del mal diseño
+Son las pistas que nos dará nuestro código para detectar el mal diseño de nuestro software.
+
+#### Rigidez
+Código difícil de cambiar, incluso para pequeños cambios. Cada modificación requiere cambios en cascada que pueden llevar largos periodos de tiempo en aplicarse. Ni el propio desarrollador autor de dicho código tiene ni idea de lo que sucederá o de lo que tendrá que ser cambiado cuando necesite cambiar cualquier otro punto. 
+Esto conduce a una reticencia y miedo al cambio y todo junto hace que el código sea muy difícil de mantener.
+
+#### Fragilidad
+La ruptura del software se produce de manera inesperada con cada cambio. Esto es un problema relacionado con la rigidez, pero es diferente, ya que, no hay una secuencia de modificaciones continuas mas allá de una hora. Las funcionalidad nuevas funcionan pero otra parte está rota. Cada solución son en realidad dos nuevos problemas. 
+
+#### No portable
+Cada modulo funciona, pero solo para la situacion/problema para el que se ha pensado. 
+No se puede reutilizar el codigo en otro proyecto, porque son demasiadas cosas pequeñas las que se tendrían que cambiar. 
+
+
+<a href="#principios-del-diseño-orientado-a-objetos">Subir</a>
