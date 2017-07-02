@@ -133,3 +133,17 @@ public class Person {
 
 }
 ```
+
+# Cuando una interfaz y cuando una clase abstracta
+
+## Algunas consideraciones iniciales
+- Voy a necesitar heredar de varias clases abstractas o no.
+- Va a existir alguna implementación por defecto o algún contrato
+- Se añadirán nuevos métodos al contrato o se definirá un nuevo contrato enteramente para implementar un cambio.
+
+##Como decidir?
+
+Con una máxima a la hora de elegir: 
+> Interfaces representan capacidad y clases abstractas representan tipo
+
+Implementar una interfaz representa una relación poder-hacer y heredar de una clase abstracta representa una relación is-a
