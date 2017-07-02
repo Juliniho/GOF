@@ -141,7 +141,7 @@ public class Person {
 - Va a existir alguna implementación por defecto o algún contrato
 - Se añadirán nuevos métodos al contrato o se definirá un nuevo contrato enteramente para implementar un cambio.
 
-##Como decidir?
+## Como decidir?
 
 Con una máxima a la hora de elegir: 
 > Interfaces representan capacidad y clases abstractas representan tipo
