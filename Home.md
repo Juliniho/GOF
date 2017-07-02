@@ -9,8 +9,9 @@ Welcome to the Learning wiki!
 
 
 2. JAVA
-   + 2.1 [Annottations](https://github.com/ajpaez/Learning/wiki)
-   + 2.2 [JPA](https://github.com/ajpaez/Learning/wiki)
-   + 2.1 [Reflection](https://github.com/ajpaez/Learning/wiki)
-   + 2.2 [Testing](https://github.com/ajpaez/Learning/wiki)
-   + 2.1 [WebApplicationServletDemo](https://github.com/ajpaez/Learning/wiki)
+   + 2.1 [Annottations](https://github.com/ajpaez/Learning/tree/master/Annottations)
+   + 2.2 [JPA](https://github.com/ajpaez/Learning/tree/master/JPA)
+   + 2.3 [Reflection](https://github.com/ajpaez/Learning/tree/master/Reflection)
+   + 2.4 [Testing](https://github.com/ajpaez/Learning/tree/master/Testing)
+   + 2.5 [WebApplicationServletDemo](https://github.com/ajpaez/Learning/tree/master/WebApplicationServletDemo)
+   + 2.6 [Java Memory](https://github.com/ajpaez/Learning/wiki/Java-Memory-Model-JMM)
